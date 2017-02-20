@@ -12,6 +12,8 @@
 		21A8F97A1E5B44CE00626DAA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21A8F9781E5B44CE00626DAA /* Main.storyboard */; };
 		21A8F97C1E5B44CE00626DAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21A8F97B1E5B44CE00626DAA /* Assets.xcassets */; };
 		21A8F97F1E5B44CE00626DAA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21A8F97D1E5B44CE00626DAA /* LaunchScreen.storyboard */; };
+		21A8F98A1E5B45B200626DAA /* ProgressBarDraw.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21A8F9891E5B45B200626DAA /* ProgressBarDraw.swift */; };
+		21A8F98C1E5B45F100626DAA /* ProgressBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21A8F98B1E5B45F100626DAA /* ProgressBarView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		21A8F97B1E5B44CE00626DAA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		21A8F97E1E5B44CE00626DAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		21A8F9801E5B44CE00626DAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21A8F9891E5B45B200626DAA /* ProgressBarDraw.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgressBarDraw.swift; sourceTree = "<group>"; };
+		21A8F98B1E5B45F100626DAA /* ProgressBarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgressBarView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +58,40 @@
 		21A8F9731E5B44CE00626DAA /* ProgressBar */ = {
 			isa = PBXGroup;
 			children = (
+				21A8F9881E5B454000626DAA /* Model */,
+				21A8F9871E5B453C00626DAA /* View */,
+				21A8F9861E5B453100626DAA /* Controller */,
 				21A8F9741E5B44CE00626DAA /* AppDelegate.swift */,
-				21A8F9761E5B44CE00626DAA /* ViewController.swift */,
 				21A8F9781E5B44CE00626DAA /* Main.storyboard */,
 				21A8F97B1E5B44CE00626DAA /* Assets.xcassets */,
 				21A8F97D1E5B44CE00626DAA /* LaunchScreen.storyboard */,
 				21A8F9801E5B44CE00626DAA /* Info.plist */,
 			);
 			path = ProgressBar;
+			sourceTree = "<group>";
+		};
+		21A8F9861E5B453100626DAA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				21A8F9761E5B44CE00626DAA /* ViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		21A8F9871E5B453C00626DAA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				21A8F9891E5B45B200626DAA /* ProgressBarDraw.swift */,
+				21A8F98B1E5B45F100626DAA /* ProgressBarView.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		21A8F9881E5B454000626DAA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +167,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21A8F98A1E5B45B200626DAA /* ProgressBarDraw.swift in Sources */,
+				21A8F98C1E5B45F100626DAA /* ProgressBarView.swift in Sources */,
 				21A8F9771E5B44CE00626DAA /* ViewController.swift in Sources */,
 				21A8F9751E5B44CE00626DAA /* AppDelegate.swift in Sources */,
 			);
